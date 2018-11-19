@@ -1,23 +1,23 @@
 #include <stdio.h>
 void main()  
 {  
-    char sing_ch;  
+    char ch;  
     
     printf("Input any alphabet : ");  
-    scanf("%c", &sing_ch);  
+    scanf("%c", &ch);  
   
-    if(sing_ch=='a' || sing_ch=='e' || sing_ch=='i' || sing_ch=='o' || sing_ch=='u' || sing_ch=='A' || sing_ch=='E' || sing_ch=='I' || sing_ch=='O' 
+    if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u' || ch=='A' || ch=='E' || ch=='I' || ch=='O' 
 
-|| sing_ch=='U')  
+|| ch=='U')  
     {  
-        printf("The alphabet is a vowel.\n");  
+        printf("Vowel\n");  
     }  
-    else if((sing_ch>='a' && sing_ch<='z') || (sing_ch>='A' && sing_ch<='Z'))  
+    else if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))  
     {  
-        printf("The alphabet is a consonant.\n");  
+        printf("Consonant\n");  
     }  
     else  
     {  
-        printf("The character is not an alphabet.\n");  
+        printf("invalid\n");  
     }   
 }
